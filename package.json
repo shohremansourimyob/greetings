@@ -7,7 +7,7 @@
     "greetings": "bin/greetings"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "publishConfig": {
     "access": "public"
@@ -28,5 +28,8 @@
   "homepage": "https://github.com/shohremansourimyob/greetings#readme",
   "dependencies": {
     "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
