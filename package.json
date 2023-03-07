@@ -1,0 +1,32 @@
+{
+  "name": "greetings",
+  "version": "1.0.0",
+  "description": "A Hello World app to play with Feature Toggling",
+  "main": "src/cli.js",
+  "bin": {
+    "greetings": "bin/greetings"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shohremansourimyob/greetings.git"
+  },
+  "keywords": [
+    "cli",
+    "greetings"
+  ],
+  "author": "Shohre Mansouri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shohremansourimyob/greetings/issues"
+  },
+  "homepage": "https://github.com/shohremansourimyob/greetings#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
