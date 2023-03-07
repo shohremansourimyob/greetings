@@ -6,9 +6,10 @@
   "bin": {
     "greetings": "bin/greetings"
   },
+  "type": "module",
   "scripts": {
-    "test": "jest",
-    "tw": "jest --watch"
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest",
+    "tw": "node --experimental-vm-modules ./node_modules/.bin/jest --watch"
   },
   "publishConfig": {
     "access": "public"
