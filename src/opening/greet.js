@@ -15,7 +15,7 @@ const unknownGreeting = () => {
 } 
 
 const greet = (inputGreet) => {
-    if (inputGreet === 'Hello!') {
+    if (inputGreet === 'Hello') {
         return normalGreeting();
     }
 
