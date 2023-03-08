@@ -1,10 +1,24 @@
-//const holdConsole = console;
-import cli from '.';
+import cli from './index';
+import { unknownGreeting } from './index'
 
-it('console logs when cli is called', () => {
-    const expected = 'I beg your pardon?'
-    
+const pardon = unknownGreeting();
+
+it('should return I beg your pardon when cli is called', () => {
+    const response = cli('Blah');
+
+    expect(response).toBe(pardon);
+});
+
+it('should respond to hello', () => {
     const response = cli('Hello');
 
-    expect(response).toBe(expected);
+    expect(response).not.toEqual(null);
+    expect(response).not.toEqual('I beg your pardon?');
+});
+
+it('should respond to weather', () => {
+    const response = cli('Nice weather today!');
+
+    expect(response).not.toEqual(null);
+    expect(response).not.toEqual('I beg your pardon?');
 });
