@@ -6,4 +6,4 @@ it("should return How are you when called", ()=> {
     const response = pleasantry();
 
     expect(response).toBe(expected);
-})
+});
