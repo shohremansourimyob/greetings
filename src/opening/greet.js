@@ -1,5 +1,5 @@
-import hello from "./hello";
-import pleasantry from "./pleasantry";
+import hello from "./hello.js";
+import pleasantry from "./pleasantry.js";
 
 const normalGreeting = () => {
     const helloStateent = hello();

@@ -1,5 +1,5 @@
-import greet from './opening/greet';
-import weather from './small-talk/weather';
+import greet from './opening/greet.js';
+import weather from './small-talk/weather.js';
 
 export const unknownGreeting = () => {
     return 'I beg your pardon?';
