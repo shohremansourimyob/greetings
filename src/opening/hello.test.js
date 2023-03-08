@@ -1,7 +1,7 @@
 import hello from "./hello";
 
-it('returns hi when receives hi', () => {
-    const expected = 'Hi';
+it("returns hi when receives hi", () => {
+    const expected = "Hi";
 
     const response =  hello();
 

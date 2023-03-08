@@ -8,14 +8,14 @@ const normalGreeting = () => {
     const pleasantryStatement = pleasantry();
 
     return `${greetStatement}! ${pleasantryStatement}`;
-}
+};
 
 const greet = (inputGreet) => {
-    if (inputGreet === 'Hello') {
+    if (inputGreet === "Hello") {
         return normalGreeting();
     }
 
     return null;
-}
+};
 
 export default greet;
