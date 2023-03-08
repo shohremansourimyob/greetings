@@ -2,10 +2,9 @@
 import cli from '.';
 
 it('console logs when cli is called', () => {
-    var a;
+    const expected = 'I beg your pardon?'
+    
+    const response = cli('Hello');
 
-   // console.log = (input) => holdConsole.log(input); 
-    cli('Hello');
-
-   // expect(a).toBe('Hello');
+    expect(response).toBe(expected);
 });

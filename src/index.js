@@ -1,5 +1,9 @@
+const unknownGreeting = () => {
+    return 'I beg your pardon?';
+} 
+
 const cli = (args) => {
-    console.log(args);
+    return unknownGreeting();
 }
 
 export default cli;

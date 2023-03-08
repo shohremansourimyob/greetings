@@ -17,7 +17,7 @@ it('returns It\'s been horrible when input is Nice weather today', () => {
 });
 
 it('returns I beg your pardon when unknown statment', () => {
-    const expected = 'I beg your pardon?';
+    const expected = null;
 
     const response = weather('Blah blah');
 

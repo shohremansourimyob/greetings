@@ -5,7 +5,7 @@ const weather = (inputStatement) => {
     if (inputStatement === 'Such crap weather!')
         return 'It\'s been horrible.';
 
-    return 'I beg your pardon?';
+    return null;
 };
 
 export default weather;

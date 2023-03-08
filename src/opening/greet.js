@@ -10,16 +10,12 @@ const normalGreeting = () => {
     return `${greetStatement}! ${pleasantryStatement}`;
 }
 
-const unknownGreeting = () => {
-     return 'I beg your pardon?';
-} 
-
 const greet = (inputGreet) => {
     if (inputGreet === 'Hello') {
         return normalGreeting();
     }
 
-    return unknownGreeting();
+    return null;
 }
 
 export default greet;

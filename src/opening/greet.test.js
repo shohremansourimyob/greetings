@@ -9,8 +9,8 @@ it("should say Hello! How are you?, when someone says Hello", () => {
 });
 
 
-it('should say I beg your pardon, when an unknown word is provided', () => {
-    const expected = 'I beg your pardon?';
+it('should return null, when an unknown word is provided', () => {
+    const expected = null;
 
     const response = greet('blah blah');
 
