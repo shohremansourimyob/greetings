@@ -1,4 +1,4 @@
 #!/usr/bin/env node
+import cli from '../src/index.js';
 
-require = require('esm')(module /*, options*/);
-require('../src/cli').cli(process.argv);
+cli(process.argv[2]);

@@ -2,7 +2,7 @@
   "name": "greetings",
   "version": "1.0.0",
   "description": "A Hello World app to play with Feature Toggling",
-  "main": "src/cli.js",
+  "main": "src/index.js",
   "bin": {
     "greetings": "bin/greetings"
   },
@@ -19,7 +19,7 @@
     "url": "git+https://github.com/shohremansourimyob/greetings.git"
   },
   "keywords": [
-    "cli",
+    "index",
     "greetings"
   ],
   "author": "Shohre Mansouri",
