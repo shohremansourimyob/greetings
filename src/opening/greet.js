@@ -1,16 +1,16 @@
 import hello from "./hello.js";
 import pleasantry from "./pleasantry.js";
 
-const normalGreeting = () => {
-    const helloStatement = hello();
-    const pleasantryStatement = pleasantry();
+const normalGreeting = (coolOpening) => {
+    const helloStatement = hello(coolOpening);
+    const pleasantryStatement = pleasantry(coolOpening);
 
-    return `${helloStatement}! ${pleasantryStatement}`;
+    return `${helloStatement} ${pleasantryStatement}`;
 };
 
-const greet = (inputGreet) => {
+const greet = (inputGreet, coolOpening) => {
     if (inputGreet === "Hello") {
-        return normalGreeting();
+        return normalGreeting(coolOpening);
     }
 
     return null;
