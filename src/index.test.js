@@ -13,12 +13,12 @@ it("should respond to hello", () => {
     const response = cli("Hello");
 
     expect(response).not.toEqual(null);
-    expect(response).not.toEqual("I beg your pardon?");
+    expect(response).not.toEqual(pardon);
 });
 
 it("should respond to weather", () => {
     const response = cli("Nice weather today!");
 
     expect(response).not.toEqual(null);
-    expect(response).not.toEqual("I beg your pardon?");
+    expect(response).not.toEqual(pardon);
 });
