@@ -8,8 +8,8 @@
   },
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules ./node_modules/.bin/jest  --coverage src/*.test.js",
-    "tw": "node --experimental-vm-modules ./node_modules/.bin/jest --watch  src/*.test.js",
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest  --coverage src/*/*.test.js",
+    "tw": "node --experimental-vm-modules ./node_modules/.bin/jest --watch  src/*/*.test.js",
     "test:integration": "node --experimental-vm-modules  ./node_modules/.bin/jest bin/*.test.js",
     "test:all": "node --experimental-vm-modules  ./node_modules/.bin/jest"
 
