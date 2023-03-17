@@ -1,5 +1,5 @@
 import cli from "./index";
-import { unknownGreeting } from "./index"
+import { unknownGreeting } from "./index";
 
 const pardon = unknownGreeting();
 
