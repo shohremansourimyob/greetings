@@ -1,27 +1,27 @@
-import { isCoolOpeningFeatureOn } from "./feature-toggles.js";
+import { coolOpeningFeatureIsOn } from "./feature-toggles.js";
 
 describe("Featture Toggle", () => {
-    describe("isCoolOpeningFeatureOn", () => {
+    describe("coolOpeningFeatureIsOn", () => {
         it("if featureToggle is on, it returns true", () => {
-            const result = isCoolOpeningFeatureOn("on");
+            const result = coolOpeningFeatureIsOn("on");
 
             expect(result).toBe(true);
         });
 
         it("if featureToggle value is not set, it returns true", () => {
-            const result = isCoolOpeningFeatureOn("off");
+            const result = coolOpeningFeatureIsOn("off");
 
             expect(result).toBe(false);
         });
 
         it("if featureToggle value is not set, it returns false", () => {
-            const result = isCoolOpeningFeatureOn();
+            const result = coolOpeningFeatureIsOn();
 
             expect(result).toBe(false);
         });
 
         it("if featureToggle value is invalid, it returns false", () => {
-            const result = isCoolOpeningFeatureOn("something wrong");
+            const result = coolOpeningFeatureIsOn("something wrong");
 
             expect(result).toBe(false);
         });
