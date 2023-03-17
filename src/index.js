@@ -1,4 +1,4 @@
-import greet from "./opening/greet.js";
+import greet from "./oldOpening/greet.js";
 import weather from "./small-talk/weather.js";
 
 export const unknownGreeting = () => {
