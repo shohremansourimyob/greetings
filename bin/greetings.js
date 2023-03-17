@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 import cli from "../src/index.js";
-
 import readline from "readline";
+import { coolOpeningFeatureIsOn, CoolOpenings } from "../src/feature-toggles.js";
 
 
 const rl = readline.createInterface({
@@ -18,7 +18,7 @@ rl.on("line", (line) => {
     rl.close();
     return;
   }
-  console.log(">> " + cli(line.toString().trim()));
+  console.log(">> " + cli(line.toString().trim(), coolOpeningFeatureIsOn(CoolOpenings)));
   rl.prompt();
 });
 
