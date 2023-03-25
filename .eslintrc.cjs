@@ -1,8 +1,13 @@
 module.exports = {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "jest": true
   },
+  "plugins": [
+    "jest",
+    "jest/recommended"
+  ],
   "extends": "eslint:recommended",
   "overrides": [
   ],
@@ -14,4 +19,4 @@ module.exports = {
     "semi": ["error", "always"],
     "quotes": ["error", "double"]
   }
-}
+};

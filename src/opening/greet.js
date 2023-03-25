@@ -2,9 +2,9 @@ import hello from "./hello.js";
 import pleasantry from "./pleasantry.js";
 
 const normalGreeting = () => {
-    const helloStateent = hello();
+    const helloStatement = hello();
 
-    const greetStatement = helloStateent;
+    const greetStatement = helloStatement;
     const pleasantryStatement = pleasantry();
 
     return `${greetStatement}! ${pleasantryStatement}`;

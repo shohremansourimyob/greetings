@@ -6,8 +6,8 @@ export const unknownGreeting = () => {
 };
 
 const cli = (input) => {
-    const hello = greet(input);
-    if (hello) return hello;
+    const opening = greet(input);
+    if (opening) return opening;
 
     const smallTalk = weather(input);
     if (smallTalk) return smallTalk;
