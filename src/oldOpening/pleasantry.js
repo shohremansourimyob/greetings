@@ -1,5 +1,5 @@
 const pleasantry = () => {
-    return "Sup?";
+    return "How are you?";
 };
 
 export default pleasantry;
