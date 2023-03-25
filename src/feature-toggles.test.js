@@ -1,6 +1,6 @@
 import { coolOpeningFeatureIsOn } from "./feature-toggles.js";
 
-describe("Featture Toggle", () => {
+describe("Feature Toggle", () => {
     describe("coolOpeningFeatureIsOn", () => {
         it("if featureToggle is on, it returns true", () => {
             const result = coolOpeningFeatureIsOn("on");

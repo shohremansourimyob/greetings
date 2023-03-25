@@ -2,12 +2,10 @@ import hello from "./hello.js";
 import pleasantry from "./pleasantry.js";
 
 const normalGreeting = () => {
-    const helloStateent = hello();
-
-    const greetStatement = helloStateent;
+    const helloStatement = hello();
     const pleasantryStatement = pleasantry();
 
-    return `${greetStatement}! ${pleasantryStatement}`;
+    return `${helloStatement}! ${pleasantryStatement}`;
 };
 
 const greet = (inputGreet) => {

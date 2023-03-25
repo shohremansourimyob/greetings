@@ -24,7 +24,6 @@ describe("CLI", () => {
 
             expect(response).not.toEqual(null);
             expect(response).toContain("Hi");
-
         });
     });
 
@@ -34,7 +33,6 @@ describe("CLI", () => {
 
             expect(response).not.toEqual(null);
             expect(response).toContain("Yo");
-
         });
     });
 });
